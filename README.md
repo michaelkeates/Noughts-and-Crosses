@@ -21,7 +21,7 @@
 </a>
 
 </p>
-A Noughts & Crosses game developed in JavaScript & HTML/CSS for an assigment set by the University of South Wales. This is an enhancment from a tutorial that was given by the University with a number of features and styling implemented to improve the game.
+A Noughts & Crosses or Tic Tac Toe game developed in JavaScript & HTML/CSS for an assigment set by the University of South Wales. This is an enhancment from a tutorial that was given by the University with a number of features and styling implemented to improve the game.
 <br></br>
 <br></br>
 <p align="center">
