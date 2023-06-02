@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/648605755/b3fb64b6-5b86-4191-bdfd-1414bd08a6ef" width="512px"/>
+  <img src="https://repository-images.githubusercontent.com/648633898/bf067b08-12fd-48b2-80ef-6e977c5f7951" width="512px"/>
 </p>
 <h1 align="center">Noughts & Crosses JavaScript Game</h1>
 <p align="center">
