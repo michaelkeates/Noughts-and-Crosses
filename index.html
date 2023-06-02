@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <h1 class="game--title">Tic Tac Toe</h1>
+        <h2>Noughts and Crosses game in JavaScript and HTML</h2>
+        <hr class="seperator" />
+        <div class="menubar">
+          <div class="dropdown">
+            <button onclick="dropdownGrids()" class="dropbtn">
+              <span class="material-symbols-outlined">grid_view</span>
+            </button>
+            <div id="gridDropdown" class="dropdown-content">
+              <a onclick="setGrid3()" href="#">3 x 3 Board <span class="material-symbols-outlined">grid_3x3</span></a>
+              <a onclick="setGrid4()" href="#">4 x 4 Board <span class="material-symbols-outlined">grid_4x4</span></a>
+              <a onclick="setGrid5()" href="#">5 x 5 Board <span class="material-symbols-outlined">grid_4x4</span></a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button onclick="dropdownOpponents()" class="dropbtn">
+              <span class="material-symbols-outlined">face</span>
+            </button>
+            <div id="opponentDropdown" class="dropdown-content">
+              <a onclick="setHumanOpponent()" href="#">Human Opponent<span class="material-symbols-outlined">face</span></a>
+              <a onclick="setAIOpponent()" href="#">AI Opponent <span class="material-symbols-outlined">computer</span></a>
+          </div>
+          <div class="dropdown">
+            <button onclick="dropdownVariations()" class="dropbtn">
+              <span class="material-symbols-outlined">sports</span>
+            </button>
+            <div id="variationDropdown" class="dropdown-content">
+              <a onclick="setNormal()" href="#">Normal Mode <span class="material-symbols-outlined">barefoot</span></a>
+              <a onclick="setParty()" href="#">Party Mode <span class="material-symbols-outlined">celebration</span></a>
+              <a onclick="setRounds()" href="#">Set Rounds <span class="material-symbols-outlined">autorenew</span></a>
+            </div>
+          </div>
+          <button class="game--restart" title="Restart Game">
+            <span class="material-symbols-outlined">restart_alt</span>
+          </button>
+          <button class="video--tutorial" title="Play Video">
+            <span class="material-symbols-outlined">movie</span>
+          </button>
+        </div>
+        <hr class="seperator" />
+        <!--Added a outer div container so easier to center grid using flex from css-->
+        <div class="outer--container">
+          <div class="game--container">
+            <h2>Please select your board from above and your choice of opponent, then press 'Restart'.
+            </h2>
+            <!---Commented the cell grid out from the original tutorial as can generate them using javascript
+          <div data-cell-index="0" class="cell"></div>
+          <div data-cell-index="1" class="cell"></div>
+          <div data-cell-index="2" class="cell"></div>
+          <div data-cell-index="3" class="cell"></div>
+          <div data-cell-index="4" class="cell"></div>
+          <div data-cell-index="5" class="cell"></div>
+          <div data-cell-index="6" class="cell"></div>
+          <div data-cell-index="7" class="cell"></div>
+          <div data-cell-index="8" class="cell"></div>
+          --></div>
+        </div>
+        <hr class="seperator" />
+        <br />
+        <div class="playerscores">
+          <div class="card">
+            <div class="card-info">
+              <h2>Player X Score: <span id="score-X">0</span></h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-info">
+              <h2 class="game--status"></h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-info">
+              <h2>Player O Score: <span id="score-O">0</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="playerscores">
+          <div class="card">
+            <div class="card-info">
+              <h2>Grid: <span class="game--type"></span></h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-info">
+              <h2>Opponent: <span class="game--opponent"></span></h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-info">
+              <h2>Best of: <span class="game--rounds"></span></h2>
+            </div>
+          </div>
+        </div>
+        <!--<button class="game--restart">Restart</button>-->
+        <div class="message">
+        </div>
+        <script src="tictactoe.js"></script>
+        <script src="dropdown.js"></script>
+      </section>
+    </main>
+  </body>
+</html>
