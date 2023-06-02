@@ -21,7 +21,7 @@
 </a>
 
 </p>
-A Noughts & Crosses game developed in JavaScript & HTML/CSS for an assigment set by the University of South Wales. This is an enhancment from a tutorial that was given by the University with a number of features and styling implemented to improve the game..
+A Noughts & Crosses game developed in JavaScript & HTML/CSS for an assigment set by the University of South Wales. This is an enhancment from a tutorial that was given by the University with a number of features and styling implemented to improve the game.
 <br></br>
 <br></br>
 <p align="center">
@@ -29,7 +29,6 @@ A Noughts & Crosses game developed in JavaScript & HTML/CSS for an assigment set
 </p>
 <br></br>
 <h2 align="left">Description</h1>
-This Noughts & Crosses game :
 
 <h3 align="left">Features</h3>
 <ul>
