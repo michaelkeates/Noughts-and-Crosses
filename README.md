@@ -41,12 +41,9 @@ A Noughts & Crosses or Tic Tac Toe game developed in JavaScript & HTML/CSS for a
 
 <h2 align="left">Images</h1>
 
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.21.54.jpeg" width="100%"/>
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.15.jpeg" width="100%"/>
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.36.jpeg" width="100%"/>
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.51.jpeg" width="100%"/>
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.23.16.jpeg" width="100%"/>
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.23.42.jpeg" width="100%"/>
+<img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.21.54.jpeg" width="45%" hspace="10"/><img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.15.jpeg" width="45%" hspace="10"/>
+<img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.36.jpeg" width="45%" hspace="10"/><img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.22.51.jpeg" width="45%" hspace="10"/>
+<img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.23.16.jpeg" width="45%" hspace="10"/><img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-13.23.42.jpeg" width="45%" hspace="10"/>
 <br></br>
 <h2 align="left">Getting Started</h1>
 
